@@ -1,6 +1,6 @@
 {
   "name": "gevs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Conveniently generate vscode configuration files",
   "type": "module",
   "main": "index.js",
