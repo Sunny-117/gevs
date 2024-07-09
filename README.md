@@ -32,4 +32,4 @@ $ gevs /path/to/your/config.json
 
 ## License
 
-[MIT](./LICENSE) License © 2024 [Sunny-111](https://github.com/Sunny-117)
+[MIT](./LICENSE) License © 2024 [Sunny-117](https://github.com/Sunny-117)

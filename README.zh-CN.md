@@ -25,4 +25,4 @@ gevs <路径>  # 输入 `gevs` 并跟上一个文件路径时，工具会将指�
 
 ## License
 
-[MIT](./LICENSE) License © 2024 [Sunny-111](https://github.com/Sunny-117)
+[MIT](./LICENSE) License © 2024 [Sunny-117](https://github.com/Sunny-117)
