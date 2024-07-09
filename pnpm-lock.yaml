@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@antfu/eslint-config': ^2.22.0-beta.3
   bumpp: ^9.4.1
+  consola: ^3.2.3
   eslint: ^9.6.0
   inquirer: ^10.0.1
   tsup: ^8.1.0
@@ -10,6 +11,7 @@ specifiers:
   vitest: ^2.0.1
 
 dependencies:
+  consola: 3.2.3
   inquirer: 10.0.1
 
 devDependencies:
@@ -1557,7 +1559,6 @@ packages:
   /consola/3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
-    dev: true
 
   /core-js-compat/3.37.1:
     resolution: {integrity: sha512-9TNiImhKvQqSUkOvk/mMRZzOANTiEVC7WaBNhHcKM7x+/5E1l5NvsysR19zuDQScE8k+kfQXWRN3AtS/eOSHpg==}

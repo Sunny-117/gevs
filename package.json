@@ -24,10 +24,12 @@
   ],
   "scripts": {
     "build": "tsup",
+    "dev": "tsup --watch",
     "test": "vitest",
     "release": "pnpm build && bumpp && pnpm publish --no-git-checks"
   },
   "dependencies": {
+    "consola": "^3.2.3",
     "inquirer": "^10.0.1"
   },
   "devDependencies": {
