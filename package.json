@@ -5,10 +5,13 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "gevs": "./index.js"
+    "gevs": "bin/index.js"
   },
   "scripts": {
-    "release": "bumpp && pnpm publish --no-git-checks"
+    "build": "tsup",
+    "test": "vitest",
+    "postinstall": "pnpm run build && pnpm run test",
+    "release": "pnpm build && bumpp && pnpm publish --no-git-checks"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,8 @@
   "devDependencies": {
     "bumpp": "^9.4.1",
     "tsup": "^8.1.0",
-    "typescript": "^5.5.3"
-  }
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.1"
+  },
+  "packageManager": "pnpm@6.32.3"
 }
