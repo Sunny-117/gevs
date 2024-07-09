@@ -8,7 +8,7 @@
     "gevs": "./index.js"
   },
   "scripts": {
-    "release": "bumpp && pnpm publish"
+    "release": "bumpp && pnpm publish --no-git-checks"
   },
   "repository": {
     "type": "git",
