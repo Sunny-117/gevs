@@ -1,0 +1,22 @@
+{
+  "name": "gevs",
+  "version": "0.0.1",
+  "description": "Conveniently generate vscode configuration files",
+  "main": "index.js",
+  "bin": {
+    "gevs": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunny-117/gv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunny-117/gv/issues"
+  },
+  "homepage": "https://github.com/Sunny-117/gv#readme"
+}
