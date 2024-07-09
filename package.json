@@ -18,6 +18,7 @@
   "bin": {
     "gevs": "bin/index.js"
   },
+  "files": ["bin", "dist"],
   "scripts": {
     "build": "tsup",
     "test": "vitest",
