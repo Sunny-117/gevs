@@ -32,7 +32,6 @@ var defaultContent = {
 };
 var filePath = path2.join(process.cwd(), ".vscode", "settings.json");
 async function run() {
-  console.log("start...");
   const absolutePath = process.argv[2];
   let content = defaultContent;
   if (absolutePath) {
