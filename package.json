@@ -2,6 +2,7 @@
   "name": "gevs",
   "version": "0.0.1",
   "description": "Conveniently generate vscode configuration files",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "gevs": "./index.js"
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Sunny-117/gv/issues"
   },
-  "homepage": "https://github.com/Sunny-117/gv#readme"
+  "homepage": "https://github.com/Sunny-117/gv#readme",
+  "dependencies": {
+    "inquirer": "^10.0.1"
+  }
 }
