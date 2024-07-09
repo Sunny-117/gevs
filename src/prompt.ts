@@ -1,10 +1,10 @@
-import inquirer from "inquirer";
+import inquirer from 'inquirer'
 
-export const inquirerConfirm = async (message) => {
+export async function inquirerConfirm(message: string) {
   const answer = await inquirer.prompt({
-    type: "confirm",
-    name: "confirm",
+    type: 'confirm',
+    name: 'confirm',
     message,
-  });
-  return answer;
-};
+  })
+  return answer
+}

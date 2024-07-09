@@ -1,8 +1,19 @@
 {
   "name": "gevs",
-  "version": "0.0.3",
-  "description": "Conveniently generate vscode configuration files",
   "type": "module",
+  "version": "0.0.3",
+  "packageManager": "pnpm@6.32.3",
+  "description": "Conveniently generate vscode configuration files",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Sunny-117/gv#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunny-117/gv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sunny-117/gv/issues"
+  },
   "main": "index.js",
   "bin": {
     "gevs": "bin/index.js"
@@ -13,24 +24,15 @@
     "postinstall": "pnpm run build && pnpm run test",
     "release": "pnpm build && bumpp && pnpm publish --no-git-checks"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sunny-117/gv.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sunny-117/gv/issues"
-  },
-  "homepage": "https://github.com/Sunny-117/gv#readme",
   "dependencies": {
     "inquirer": "^10.0.1"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.22.0-beta.3",
     "bumpp": "^9.4.1",
+    "eslint": "^9.6.0",
     "tsup": "^8.1.0",
     "typescript": "^5.5.3",
     "vitest": "^2.0.1"
-  },
-  "packageManager": "pnpm@6.32.3"
+  }
 }
